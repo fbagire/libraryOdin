@@ -1,0 +1,61 @@
+.read-ask {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.book {
+    text-align: center;
+    background-color: rgb(154, 189, 195);
+    border-radius: 10px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.bookSection {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    justify-content: left;
+    gap: 5px;
+}
+
+.bookSection p {
+    font-size: 1em;
+}
+
+.book div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.heading>p,
+.sub-heading {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+button{
+    border-radius:10px;
+    border-color: aliceblue;
+    border: 0;
+    line-height: 1.5;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(64, 55, 55);
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
