@@ -9,12 +9,14 @@ const bookSection = document.querySelector('.bookSection');
 const dialog = document.querySelector('#formDialog')
 const addMe = document.querySelector('#addMe')
 
-function Books(title, author, pages, read) {
-    this.title = title;
-    this.author = author;
-    this.pages = pages;
-    this.read = read;
+class Books {
+    constructor(title, author, pages, read) {
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.read = read;
 
+    }
 }
 
 function addBookToLibrary(bookObj) {
